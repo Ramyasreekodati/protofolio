@@ -95,7 +95,7 @@ const HeroHeader = () => {
           <a href="#projects" className="w-full sm:w-auto px-8 py-3 bg-primary text-textLight font-semibold rounded-lg hover:bg-accent transition-all duration-300 hover:-translate-y-1 glow-accent-hover cursor-pointer text-center">
             View Projects
           </a>
-          <a href="/Ramya_Sree_Kodati_Resume.pdf" download="Ramya_Sree_Kodati_Resume.pdf" className="w-full sm:w-auto px-8 py-3 border border-highlight text-highlight font-semibold rounded-lg hover:bg-highlight/10 transition-all duration-300 hover:-translate-y-1 cursor-pointer text-center">
+          <a href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume.pdf`} download="Ramya_Sree_Kodati_Resume.pdf" className="w-full sm:w-auto px-8 py-3 border border-highlight text-highlight font-semibold rounded-lg hover:bg-highlight/10 transition-all duration-300 hover:-translate-y-1 cursor-pointer text-center">
             Download Resume
           </a>
         </motion.div>
@@ -141,7 +141,7 @@ const HeroHeader = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            src="/profile.jpg"
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt="Ramya Sree Kodati"
             className="w-full h-full object-cover object-top rounded-[3rem] shadow-2xl relative z-10 border border-accent/30 glow-accent"
           />
@@ -1074,7 +1074,7 @@ const CTASection = () => {
             Contact Me
           </a>
           <a 
-            href="/Ramya_Sree_Kodati_Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume.pdf`}
             download="Ramya_Sree_Kodati_Resume.pdf"
             className="px-8 py-4 rounded-full bg-white/5 border border-white/20 text-white font-bold text-lg hover:bg-white/10 hover:border-highlight/50 hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto flex items-center justify-center gap-3"
           >
