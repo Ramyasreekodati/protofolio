@@ -1,25 +1,25 @@
 export const blogsData = [
   {
     "title": "List Of Important Interview Questions On Statistic...",
-    "insight": "A detailed exploration of list of important interview questions on statistic... with practical examples.",
+    "insight": "A comprehensive breakdown of key statistical concepts and probability distributions frequently asked in Data Science interviews.",
     "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop",
     "link": "https://medium.com/@ramyasreekodati/list-of-important-interview-questions-on-statistics-for-data-science-3f56bff10ff3"
   },
   {
     "title": "Mastering Statistical Concepts For Data Science In...",
-    "insight": "A detailed exploration of mastering statistical concepts for data science in... with practical examples.",
+    "insight": "Deep dive into hypothesis testing, p-values, and confidence intervals essential for rigorous data analysis.",
     "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1470&auto=format&fit=crop",
     "link": "https://medium.com/@ramyasreekodati/mastering-statistical-concepts-for-data-science-interviews-a-comprehensive-guide-part-2-cf76b90e202b"
   },
   {
     "title": "Navigating The Data Science Landscape A Curated Li...",
-    "insight": "A detailed exploration of navigating the data science landscape a curated li... with practical examples.",
+    "insight": "An overview of essential Python libraries from Pandas to Scikit-Learn that form the backbone of modern ML pipelines.",
     "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1515&auto=format&fit=crop",
     "link": "https://medium.com/@ramyasreekodati/navigating-the-data-science-landscape-a-curated-list-of-essential-libraries-ad458d48705f"
   },
   {
     "title": "15 Essential Kaggle Datasets To Master Data Scienc...",
-    "insight": "A detailed exploration of 15 essential kaggle datasets to master data scienc... with practical examples.",
+    "insight": "A curated collection of datasets to practice everything from regression to computer vision tasks.",
     "image": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=1470&auto=format&fit=crop",
     "link": "https://medium.com/@ramyasreekodati/15-essential-kaggle-datasets-to-master-data-science-as-a-beginner-c933ceb01468"
   },
@@ -73,7 +73,7 @@ export const blogsData = [
   },
   {
     "title": "Ranking And Analyzing Trading Accounts Using A Wei...",
-    "insight": "A detailed exploration of ranking and analyzing trading accounts using a wei... with practical examples.",
+    "insight": "Implementing a multi-factor ranking system to objectively evaluate and score trading account performance.",
     "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=1470&auto=format&fit=crop",
     "link": "https://medium.com/@ramyasreekodati/ranking-and-analyzing-trading-accounts-using-a-weighted-scoring-system-a25c9c347114"
   },

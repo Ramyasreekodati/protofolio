@@ -396,9 +396,9 @@ const ProjectCard = ({ project, index }) => {
                 <span dangerouslySetInnerHTML={{ __html: project.impact }} />
               </p>
               
-              <div className="pt-4 flex flex-wrap gap-2">
+              <div className="pt-4 flex flex-wrap gap-3">
                 {project.tags.map((tag, i) => (
-                  <span key={i} className="text-[11px] px-3 py-1.5 rounded-full bg-accent/10 border border-accent/30 text-highlight font-mono tracking-wide shadow-[0_0_10px_rgba(111,185,143,0)] group-hover:shadow-[0_0_15px_rgba(111,185,143,0.3)] transition-shadow duration-500">
+                  <span key={i} className="text-xl px-3 py-2 rounded-lg bg-accent/10 border border-accent/30 text-highlight transition-all duration-300 hover:scale-125 hover:bg-highlight hover:text-darkBg shadow-[0_0_15px_rgba(111,185,143,0)] group-hover:shadow-[0_0_15px_rgba(111,185,143,0.3)]">
                     {tag}
                   </span>
                 ))}
@@ -415,31 +415,31 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: "Binance Trade Analytics Dashboard",
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1470&auto=format&fit=crop",
+      image: "/images/binance.png",
       problem: "Analyzing high-frequency trading data to evaluate portfolio performance and detect anomalies.",
       solution: "Built an automated data pipeline and metrics engine (Sharpe Ratio, Drawdown) to process complex market data.",
       impact: 'Uncovered strategic insights, evaluating portfolios with up to <span class="text-highlight font-bold">+$71K PnL</span>.',
-      tags: ["Python", "Pandas", "FastAPI", "React"],
+      tags: [<SiPython />, <SiFastapi />, <SiPandas />, <SiPlotly />],
       github: "https://github.com/Ramyasreekodati/binance-trade-analysis.git",
       link: "https://binanace-trade-analysis.streamlit.app/"
     },
     {
       title: "AI Education Loan Underwriting",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop",
+      image: "/images/loan.png",
       problem: "Assessing career trajectory and financial risk for education loan underwriting.",
       solution: "Developed an end-to-end ML pipeline featuring a dual-model system for placement prediction and salary forecasting.",
       impact: 'Achieved <span class="text-highlight font-bold">86% accuracy</span> in placement prediction and an <span class="text-highlight font-bold">R² 0.989</span> for salary forecasting.',
-      tags: ["XGBoost", "LightGBM", "Streamlit", "Python"],
+      tags: [<SiPython />, <SiScikitlearn />, <SiNumpy />, <SiPandas />],
       github: "https://github.com/Ramyasreekodati/Career-Success-Risk-Modeling.git",
       link: "https://career-success-risk-modelinggit-njveqfuhy6xv5r2yvxm87w.streamlit.app/"
     },
     {
       title: "AI Proctored Interview System",
-      image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1469&auto=format&fit=crop",
+      image: "/images/interview.png",
       problem: "Ensuring academic and interview integrity in remote environments.",
       solution: "Created an AI-driven interview platform combining NLP and Computer Vision with gaze tracking and a 100-point penalty system.",
       impact: 'Achieved <span class="text-highlight font-bold">~100% detection accuracy</span> for unauthorized cheating behaviors.',
-      tags: ["FastAPI", "OpenCV", "MediaPipe", "NLP", "React"],
+      tags: [<SiFastapi />, <SiOpencv />, <SiTensorflow />, <SiKeras />],
       github: "https://github.com/Ramyasreekodati/AI-Autonomous-Interview-System.git",
       link: "https://ai-interview-room.streamlit.app/"
     },
@@ -449,7 +449,7 @@ const ProjectsSection = () => {
       problem: "Predicting wine quality accurately based on complex physicochemical properties like pH and acidity.",
       solution: "Designed an end-to-end ML pipeline with a fine-tuned Elastic Net model, deployed via a Flask API on Render.",
       impact: 'Delivered real-time predictions through an interactive web app, balancing <span class="text-highlight font-bold">L1/L2 regularization</span> for optimal accuracy.',
-      tags: ["Python", "Flask", "Machine Learning", "EDA"],
+      tags: [<SiPython />, <SiFlask />, <SiScikitlearn />],
       github: "#",
       link: null
     },
@@ -459,7 +459,7 @@ const ProjectsSection = () => {
       problem: "Forecasting flight ticket prices based on dynamic temporal features, stops, and airlines.",
       solution: "Engineered complex features and deployed a fine-tuned Random Forest model (n_estimators=540) via Flask on AWS/Render.",
       impact: 'Achieved an <span class="text-highlight font-bold">R² of 0.823</span> and a highly precise <span class="text-highlight font-bold">MAPE of 13.82%</span>.',
-      tags: ["Random Forest", "Flask", "AWS", "Python"],
+      tags: [<SiPython />, <SiFlask />, <FaAws />],
       github: "#",
       link: null
     },
@@ -469,7 +469,7 @@ const ProjectsSection = () => {
       problem: "Detecting and classifying agricultural diseases in Pepper Bell plants using image analysis.",
       solution: "Developed and trained a robust CNN-based image classification model applying advanced data augmentation.",
       impact: 'Reached <span class="text-highlight font-bold">72.8% accuracy</span> over 12 epochs, with a strategic roadmap for ResNet integration.',
-      tags: ["TensorFlow", "Keras", "OpenCV", "CNN"],
+      tags: [<SiTensorflow />, <SiKeras />, <SiOpencv />],
       github: "#",
       link: null
     }
@@ -636,7 +636,8 @@ const SkillsSection = () => {
   const [radius, setRadius] = useState(200);
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 768) setRadius(140);
+      if (window.innerWidth < 480) setRadius(110);
+      else if (window.innerWidth < 768) setRadius(140);
       else if (window.innerWidth < 1024) setRadius(190);
       else setRadius(240);
     };
