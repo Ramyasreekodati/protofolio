@@ -50,11 +50,11 @@ const HeroHeader = () => {
         >
           <TypeAnimation
             sequence={[
-              "AI & Data Scientist",
+              "Statistics & Business Graduate",
               2000,
-              "Building Intelligent Decision Systems",
+              "Solving Problems with Analytical Thinking",
               2000,
-              "Transforming Data into Scalable Impact",
+              "Continuous Learner & Growing Professional",
               2000,
             ]}
             wrapper="span"
@@ -69,7 +69,7 @@ const HeroHeader = () => {
           transition={{ delay: 0.6, duration: 1 }}
           className="text-lg md:text-xl leading-[1.7] text-gray-300 mb-8 max-w-[600px]"
         >
-          I design end-to-end intelligent systems that combine machine learning, statistical modeling, and real-world data to drive high-impact decisions.
+          I use analytical thinking and data to understand problems and find practical solutions. A motivated graduate focused on continuous learning and growth.
         </motion.p>
 
         {/* Highlights */}
@@ -79,7 +79,7 @@ const HeroHeader = () => {
           transition={{ delay: 0.9, duration: 0.8 }}
           className="flex flex-wrap justify-center lg:justify-start gap-3 mb-10 w-full"
         >
-          {["ML Systems", "NLP & Computer Vision", "Risk Modeling", "100% AI Proctoring Detection", "+$71K Trading Insights"].map((badge, idx) => (
+          {["Statistical Analysis", "Problem Solving", "Data Handling", "Logical Thinking", "Business Perspective"].map((badge, idx) => (
             <span key={idx} className="px-4 py-2 rounded-full border border-accent/50 bg-accent/10 text-sm md:text-base text-textLight glow-accent">
               {badge}
             </span>
@@ -198,10 +198,10 @@ const AboutSection = () => {
         {/* Left Column */}
         <motion.div variants={leftVariants} className="flex flex-col justify-start lg:justify-center max-w-[600px] mx-auto lg:mx-0 text-center lg:text-left">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-textLight leading-[1.2] mb-8">
-            I build intelligent systems that turn data into decisions.
+            I enjoy solving problems using data and analytical thinking.
           </h2>
           <p className="text-lg md:text-xl text-gray-300 leading-[1.8] font-light">
-            As an AI & Data Scientist, my work operates at the intersection of <span className="text-highlight font-medium">machine learning</span>, <span className="text-highlight font-medium">statistics</span>, and real-world complexity — where data is transformed into actionable intelligence. I design systems that interpret patterns, quantify uncertainty, assess risk, and automate decision-making.
+            With a background in <span className="text-highlight font-medium">Statistics</span> and business studies, I am focused on using analytical reasoning to understand real-world challenges. I believe in the power of data to find practical solutions and am constantly learning new methods to improve my impact.
           </p>
         </motion.div>
 
@@ -211,16 +211,16 @@ const AboutSection = () => {
         {/* Right Column */}
         <motion.div variants={rightVariants} className="flex flex-col justify-center space-y-10 lg:border-l lg:border-accent/30 lg:pl-16 max-w-[600px] mx-auto lg:mx-0 text-center lg:text-left">
           <motion.div variants={itemVariants}>
-            <h3 className="text-2xl md:text-3xl font-semibold text-textLight mb-3">System Thinker</h3>
+            <h3 className="text-2xl md:text-3xl font-semibold text-textLight mb-3">Analytical Approach</h3>
             <p className="text-base md:text-lg text-gray-300 font-light leading-[1.7]">
-              I approach problems as a system thinker — engineering end-to-end solutions from data preprocessing and statistical modeling to machine learning and scalable deployment.
+              I approach challenges with a grounded perspective, combining statistical foundations with practical logic to understand and address complex problems.
             </p>
           </motion.div>
 
           <motion.div variants={itemVariants}>
-            <h3 className="text-2xl md:text-3xl font-semibold text-textLight mb-4">Core Specializations</h3>
+            <h3 className="text-2xl md:text-3xl font-semibold text-textLight mb-4">Core Foundations</h3>
             <div className="flex flex-wrap justify-center lg:justify-start gap-3">
-              {["Machine Learning", "Statistical Modeling", "NLP", "Computer Vision"].map((skill, index) => (
+              {["Statistical Analysis", "Data Reasoning", "Python Basics", "Business Foundations"].map((skill, index) => (
                 <span key={index} className="px-4 py-2 rounded-lg border border-accent/40 bg-accent/10 text-highlight font-medium text-sm md:text-base tracking-wide">
                   {skill}
                 </span>
@@ -294,11 +294,11 @@ const ExpertiseCard = ({ title, desc, icon, index }) => {
 
 const CoreExpertise = () => {
   const cards = [
-    { title: "Decision Intelligence", desc: "Forecasting, uncertainty modeling, statistical reasoning", icon: <FiPieChart /> },
-    { title: "Intelligent Systems", desc: "Machine learning, deep learning, model optimization", icon: <FiCpu /> },
-    { title: "AI Perception", desc: "NLP, computer vision, pattern recognition", icon: <FiEye /> },
-    { title: "Data to Insight", desc: "EDA, visualization, business insights", icon: <FiTrendingUp /> },
-    { title: "Scalable ML Systems", desc: "Pipelines, APIs, deployment", icon: <FiSettings /> },
+    { title: "Analytical Thinking", desc: "Using logic and data to break down complex problems", icon: <FiPieChart /> },
+    { title: "Data Foundations", desc: "Understanding distributions, patterns, and statistical reasoning", icon: <FiCpu /> },
+    { title: "Machine Learning", desc: "Applying foundational algorithms to find practical solutions", icon: <FiEye /> },
+    { title: "Problem Solving", desc: "Translating real-world challenges into data-driven insights", icon: <FiTrendingUp /> },
+    { title: "Technical Skills", desc: "Using Python and SQL to process and analyze information", icon: <FiSettings /> },
   ];
 
   return (
@@ -472,6 +472,16 @@ const ProjectsSection = () => {
       tags: [<SiTensorflow />, <SiKeras />, <SiOpencv />],
       github: "#",
       link: null
+    },
+    {
+      title: "AI Scam Detection & Forensic Agent",
+      image: "/images/scam.png",
+      problem: "Detecting sophisticated scam intent and extracting malicious data (UPI, Banks, URLs) in real-time.",
+      solution: "Built an autonomous Gemini Pro agent with a FastAPI backend, IMAP integration, and a premium Streamlit dashboard.",
+      impact: 'Achieved <span class="text-highlight font-bold">real-time threat intelligence</span> with automated webhook reporting and cloud scalability via Docker.',
+      tags: [<SiFastapi />, <SiGooglecloud />, <SiPython />, <FaGithub />],
+      github: "https://github.com/Ramyasreekodati/spam-detection.git",
+      link: "https://spam-detection-agent.streamlit.app/"
     }
   ];
 
@@ -896,6 +906,27 @@ const BlogSection = () => {
   );
 };
 
+const CareerSection = () => {
+  return (
+    <section className="py-24 px-6 md:px-10 lg:px-20 bg-darkBg/95 relative overflow-hidden">
+      <div className="max-w-4xl mx-auto text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+        >
+          <h2 className="text-4xl font-extrabold text-textLight mb-8">Career Objective</h2>
+          <p className="text-xl md:text-2xl text-gray-300 leading-relaxed font-light italic">
+            "A motivated and adaptable graduate with a strong background in Statistics and business studies. Interested in using problem-solving and analytical thinking to handle real-world challenges while continuously learning and growing."
+          </p>
+          <div className="w-24 h-1 bg-highlight/30 rounded-full mx-auto mt-10" />
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
 const EducationSection = () => {
   const education = [
     {
@@ -1061,10 +1092,10 @@ const CTASection = () => {
         <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
         <h2 className="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight tracking-tight">
-          Let’s build intelligent <br className="hidden md:block" /> systems together.
+          Let’s solve problems <br className="hidden md:block" /> with data, together.
         </h2>
         <p className="text-gray-400 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
-          Ready to turn complex data into actionable intelligence? I am actively seeking roles where I can architect robust machine learning solutions and drive immediate business impact.
+          Interested in finding practical solutions using analytical thinking? I am actively seeking roles where I can apply my foundation in Statistics and business to drive real-world impact while continuing to grow.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -1115,6 +1146,7 @@ function App() {
         <SkillsSection />
         <ProjectsSection />
         <BlogSection />
+        <CareerSection />
         <EducationSection />
         <CertificationsSection />
         <CTASection />

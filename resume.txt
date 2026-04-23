@@ -6,18 +6,8 @@ LinkedIn: LinkedIn link
 GitHub: GitHub link 
 Medium: Medium link 
  
- Career Objective 	 
-Build a premium “About + Core Expertise” section for an AI & Data Scientist portfolio using React, Tailwind CSS, and Framer Motion.
-🎨 Theme:
-Dark AI theme
-Colors:
-#021c1e (background)
-#004445 (primary)
-#2c7873 (accent glow)
-#6fb98f (highlight)
-#c4dfe6 (text)
-Style: Glassmorphism + soft neon glow
-Clean, minimal, futuristic
+ Career Summary
+A motivated and adaptable graduate with a strong background in Statistics and business studies. Interested in using problem-solving and analytical thinking to handle real-world challenges while continuously learning and growing.
 ━━━━━━━━━━━━━━━━━━━
 🧠 ABOUT SECTION (Top)
 Layout:
@@ -190,6 +180,16 @@ Generated AI-driven explainability reports ensuring transparency and auditabilit
 
 github: https://github.com/Ramyasreekodati/Career-Success-Risk-Modeling.git
 app link: https://career-success-risk-modelinggit-njveqfuhy6xv5r2yvxm87w.streamlit.app/
+
+
+AI Scam Detection & Forensic Agent
+AI Scam Detection: Built an autonomous agent using Gemini Pro to detect scam intent and extract malicious data (UPI, Banks, URLs) in real-time.
+Backend & Integration: Developed a FastAPI engine with IMAP email integration and automated webhook reporting for instant threat intelligence.
+Security Dashboard: Created a premium Streamlit UI for live risk monitoring, forensic deep-dives, and automated activity tracking.
+Docker & Cloud: Containerized with Docker and deployed via GitHub Actions to Hugging Face for automated CI/CD and cloud scalability.
+
+github link: https://github.com/Ramyasreekodati/spam-detection.git
+app link: https://spam-detection-agent.streamlit.app/
 
 
 AI Proctored Interview & Evaluation System
