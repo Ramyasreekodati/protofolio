@@ -2,7 +2,7 @@ export const blogsData = [
   {
     "title": "List Of Important Interview Questions On Statistic...",
     "insight": "A comprehensive breakdown of key statistical concepts and probability distributions frequently asked in Data Science interviews.",
-    "image": "images/blog_stats.png",
+    "image": "images/interview.png",
     "link": "https://medium.com/@ramyasreekodati/list-of-important-interview-questions-on-statistics-for-data-science-3f56bff10ff3"
   },
   {
@@ -38,19 +38,19 @@ export const blogsData = [
   {
     "title": "Building A Data Science Project From The Ground Up",
     "insight": "A detailed exploration of building a data science project from the ground up with practical examples.",
-    "image": "images/blog_analysis.png",
+    "image": "images/blog_intro.png",
     "link": "https://medium.com/@ramyasreekodati/building-a-data-science-project-from-the-ground-up-381c7d37d5ab"
   },
   {
     "title": "Essential Python Concepts For Interviews Definitio...",
     "insight": "A detailed exploration of essential python concepts for interviews definitio... with practical examples.",
-    "image": "images/blog_python.png",
+    "image": "images/interview.png",
     "link": "https://medium.com/@ramyasreekodati/essential-python-concepts-for-interviews-definitions-formulas-and-common-questions-20b2032141d3"
   },
   {
     "title": "Regression Metrics",
     "insight": "A detailed exploration of regression metrics with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/loan.png",
     "link": "https://medium.com/@ramyasreekodati/regression-metrics-7d6339f73c5e"
   },
   {
@@ -68,49 +68,49 @@ export const blogsData = [
   {
     "title": "Six Common Problem Types",
     "insight": "A detailed exploration of six common problem types with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/blog_intro.png",
     "link": "https://medium.com/@ramyasreekodati/six-common-problem-types-a270a0241508"
   },
   {
     "title": "Ranking And Analyzing Trading Accounts Using A Wei...",
     "insight": "Implementing a multi-factor ranking system to objectively evaluate and score trading account performance.",
-    "image": "images/blog_analysis.png",
+    "image": "images/binance.png",
     "link": "https://medium.com/@ramyasreekodati/ranking-and-analyzing-trading-accounts-using-a-weighted-scoring-system-a25c9c347114"
   },
   {
     "title": "Heat Maps",
     "insight": "A detailed exploration of heat maps with practical examples.",
-    "image": "images/blog_intro.png",
+    "image": "images/blogs/heatmap.png",
     "link": "https://medium.com/@ramyasreekodati/heat-maps-e008c860dd92"
   },
   {
     "title": "Scatter Plots",
     "insight": "A detailed exploration of scatter plots with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/blogs/scatterplot.png",
     "link": "https://medium.com/@ramyasreekodati/scatter-plots-74999c208dd3"
   },
   {
     "title": "Pie Charts",
     "insight": "A detailed exploration of pie charts with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/blogs/piechart.png",
     "link": "https://medium.com/@ramyasreekodati/pie-charts-8ac9f1aaee6a"
   },
   {
     "title": "Line Plots",
     "insight": "A detailed exploration of line plots with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/blogs/lineplot.png",
     "link": "https://medium.com/@ramyasreekodati/line-plots-0f4556de0f34"
   },
   {
     "title": "Tree Maps",
     "insight": "A detailed exploration of tree maps with practical examples.",
-    "image": "images/blog_analysis.png",
+    "image": "images/blogs/treemap.png",
     "link": "https://medium.com/@ramyasreekodati/tree-maps-17fff9a7883f"
   },
   {
     "title": "Understanding Box Plots A",
     "insight": "A detailed exploration of understanding box plots a with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/blogs/scatterplot.png",
     "link": "https://medium.com/@ramyasreekodati/understanding-box-plots-a-03a80ff1b332"
   },
   {
@@ -122,25 +122,25 @@ export const blogsData = [
   {
     "title": "Histogram Plot",
     "insight": "A detailed exploration of histogram plot with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/blogs/heatmap.png",
     "link": "https://medium.com/@ramyasreekodati/histogram-plot-46dbbf08de32"
   },
   {
     "title": "Bar Chart",
     "insight": "A detailed exploration of bar chart with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/blogs/heatmap.png",
     "link": "https://medium.com/@ramyasreekodati/bar-chart-d82ea9fac207"
   },
   {
     "title": "Confusion Matrix And Performance Metrics For Class...",
     "insight": "A detailed exploration of confusion matrix and performance metrics for class... with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/loan.png",
     "link": "https://medium.com/@ramyasreekodati/confusion-matrix-and-performance-metrics-for-classification-1d5e1700e0b6"
   },
   {
     "title": "Understanding Bias And Variance In Machine Learnin...",
     "insight": "A detailed exploration of understanding bias and variance in machine learnin... with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/blog_intro.png",
     "link": "https://medium.com/@ramyasreekodati/understanding-bias-and-variance-in-machine-learning-a-simple-and-visual-guide-1c9f4694c113"
   },
   {
@@ -158,13 +158,13 @@ export const blogsData = [
   {
     "title": "What Is Linear Regression",
     "insight": "A detailed exploration of what is linear regression with practical examples.",
-    "image": "images/blog_python.png",
+    "image": "images/loan.png",
     "link": "https://medium.com/@ramyasreekodati/what-is-linear-regression-e5d8e0d7346c"
   },
   {
     "title": "One Hot Encoding",
     "insight": "A detailed exploration of one hot encoding with practical examples.",
-    "image": "images/blog_python.png",
+    "image": "images/blog_intro.png",
     "link": "https://medium.com/@ramyasreekodati/one-hot-encoding-60d949a71fe6"
   },
   {
@@ -176,7 +176,7 @@ export const blogsData = [
   {
     "title": "Six Common Problem Types",
     "insight": "A detailed exploration of six common problem types with practical examples.",
-    "image": "images/blog_stats.png",
+    "image": "images/blog_intro.png",
     "link": "https://medium.com/@ramyasreekodati/six-common-problem-types-a270a0241508"
   },
   {
