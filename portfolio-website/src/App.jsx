@@ -445,7 +445,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Wine Quality Prediction",
-      image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1470&auto=format&fit=crop",
+      image: "/images/wine.png",
       problem: "Predicting wine quality accurately based on complex physicochemical properties like pH and acidity.",
       solution: "Designed an end-to-end ML pipeline with a fine-tuned Elastic Net model, deployed via a Flask API on Render.",
       impact: 'Delivered real-time predictions through an interactive web app, balancing <span class="text-highlight font-bold">L1/L2 regularization</span> for optimal accuracy.',
@@ -455,7 +455,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Flight Price Prediction",
-      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1474&auto=format&fit=crop",
+      image: "/images/flight.png",
       problem: "Forecasting flight ticket prices based on dynamic temporal features, stops, and airlines.",
       solution: "Engineered complex features and deployed a fine-tuned Random Forest model (n_estimators=540) via Flask on AWS/Render.",
       impact: 'Achieved an <span class="text-highlight font-bold">R² of 0.823</span> and a highly precise <span class="text-highlight font-bold">MAPE of 13.82%</span>.',
@@ -465,7 +465,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Plant Disease Detection",
-      image: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1470&auto=format&fit=crop",
+      image: "/images/plant.png",
       problem: "Detecting and classifying agricultural diseases in Pepper Bell plants using image analysis.",
       solution: "Developed and trained a robust CNN-based image classification model applying advanced data augmentation.",
       impact: 'Reached <span class="text-highlight font-bold">72.8% accuracy</span> over 12 epochs, with a strategic roadmap for ResNet integration.',

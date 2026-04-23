@@ -2,19 +2,19 @@ export const blogsData = [
   {
     "title": "List Of Important Interview Questions On Statistic...",
     "insight": "A comprehensive breakdown of key statistical concepts and probability distributions frequently asked in Data Science interviews.",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop",
+    "image": "/images/blog_stats.png",
     "link": "https://medium.com/@ramyasreekodati/list-of-important-interview-questions-on-statistics-for-data-science-3f56bff10ff3"
   },
   {
     "title": "Mastering Statistical Concepts For Data Science In...",
     "insight": "Deep dive into hypothesis testing, p-values, and confidence intervals essential for rigorous data analysis.",
-    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1470&auto=format&fit=crop",
+    "image": "/images/blog_stats.png",
     "link": "https://medium.com/@ramyasreekodati/mastering-statistical-concepts-for-data-science-interviews-a-comprehensive-guide-part-2-cf76b90e202b"
   },
   {
     "title": "Navigating The Data Science Landscape A Curated Li...",
     "insight": "An overview of essential Python libraries from Pandas to Scikit-Learn that form the backbone of modern ML pipelines.",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1515&auto=format&fit=crop",
+    "image": "/images/blog_python.png",
     "link": "https://medium.com/@ramyasreekodati/navigating-the-data-science-landscape-a-curated-list-of-essential-libraries-ad458d48705f"
   },
   {
@@ -182,7 +182,7 @@ export const blogsData = [
   {
     "title": "From Issue To Action The Six Data Analysis Phases",
     "insight": "A detailed exploration of from issue to action the six data analysis phases with practical examples.",
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1470&auto=format&fit=crop",
+    "image": "/images/blog_analysis.png",
     "link": "https://medium.com/@ramyasreekodati/from-issue-to-action-the-six-data-analysis-phases-4c1b76d53bb6"
   }
 ];
