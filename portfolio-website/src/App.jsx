@@ -95,7 +95,7 @@ const HeroHeader = () => {
           <a href="#projects" className="w-full sm:w-auto px-8 py-3 bg-primary text-textLight font-semibold rounded-lg hover:bg-accent transition-all duration-300 hover:-translate-y-1 glow-accent-hover cursor-pointer text-center">
             View Projects
           </a>
-          <a href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume_ATS.html`} download="Ramya_Sree_Kodati_Resume.html" className="w-full sm:w-auto px-8 py-3 border border-highlight text-highlight font-semibold rounded-lg hover:bg-highlight/10 transition-all duration-300 hover:-translate-y-1 cursor-pointer text-center">
+          <a href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume.pdf`} download="Ramya_Sree_Kodati_Resume.pdf" className="w-full sm:w-auto px-8 py-3 border border-highlight text-highlight font-semibold rounded-lg hover:bg-highlight/10 transition-all duration-300 hover:-translate-y-1 cursor-pointer text-center">
             Download Resume
           </a>
         </motion.div>
@@ -1106,8 +1106,8 @@ const CTASection = () => {
             Contact Me
           </a>
           <a 
-            href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume_ATS.html`}
-            download="Ramya_Sree_Kodati_Resume.html"
+            href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume.pdf`}
+            download="Ramya_Sree_Kodati_Resume.pdf"
             className="px-8 py-4 rounded-full bg-white/5 border border-white/20 text-white font-bold text-lg hover:bg-white/10 hover:border-highlight/50 hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto flex items-center justify-center gap-3"
           >
             View Resume <FiEye size={20} />
